@@ -1,0 +1,21 @@
+.nav {
+    justify-content: space-around !important;
+}
+.nav_item {
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav_item a {
+    color: #434343;
+    font-family: 'Red Rose', cursive;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 20px;
+}
+.nav_item a:hover {
+    color: #4d4d4d;
+}
+.btn_connect {
+    background-image: linear-gradient(#A02279, #A02279) !important;
+    border: 1px solid #A02279 !important;
+}

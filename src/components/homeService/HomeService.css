@@ -1,0 +1,46 @@
+.service {
+    margin-top: 120px;
+    padding-right: 50px;
+}
+.service h3{
+    font-family: 'Red Rose', cursive;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+
+}
+.service p {
+    font-family: 'Red Rose', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+.service_bg {
+    margin-top: 50px;
+}
+.service_bg img {
+    width: 100%;
+}
+.service a {
+    background: #ffffff;
+    color: #A02279;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Red Rose', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.service a:hover {
+    background: #A02279;
+    color: #ffffff;
+}

@@ -1,0 +1,33 @@
+.first_container {
+    background-color: #1D1D1E;
+    color: #ffffff;
+}
+.footer_logo {
+    padding-bottom: 80px;
+} 
+.social_link-icon {
+    padding-bottom: 40px;
+}
+.social_link-icon a {
+    color: #ffffff;
+}
+.social_link-icon a:hover {
+    color: #808080;
+}
+.footer_links h5 {
+    font-family: 'Red Rose', cursive;
+    font-weight: Bold;
+    font-size: 18px;
+    line-height: 22px;
+    vertical-align: Top;
+}
+.footer_links a {
+    font-family: 'Red Rose', cursive;
+    font-size: 14px;
+    line-height: 35px;
+    color: #F1F3F9;
+    ;
+}
+.footer_links a:hover {
+    color: #ffffff;
+}
