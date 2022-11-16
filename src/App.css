@@ -18,6 +18,43 @@
    
     
 }
+.filters {
+    flex-wrap: wrap;
+}
+.filters span {
+    font-family: 'Red Rose', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #434343;
+    cursor: pointer;
+}
+.filters button {
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 10px;
+    font-family: 'Red Rose', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+
+}
+.filters button:hover {
+    background: #333333;
+    color: #ffffff;
+}
+.location_icon {
+    transform: rotate(90deg);
+    font-size: 20px;
+    margin-left: 5px;
+
+}
 @media only screen and (max-width:425px){ 
     .first_section {
     margin-top: 10px;
