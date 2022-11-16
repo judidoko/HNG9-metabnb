@@ -44,3 +44,13 @@
     background: #A02279;
     color: #ffffff;
 }
+
+@media only screen and (max-width:425px){ 
+    .service {
+        margin-top: 20px;
+        
+    } 
+    .service h3 {
+        font-size: 40px;
+    }
+}

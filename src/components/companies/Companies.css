@@ -3,3 +3,25 @@
     width: 100%;
     padding: 10px 0px 10px 100px;
 }
+
+@media only screen and (max-width:768px){ 
+    .companies {
+        padding: 10px;
+    }    
+}
+
+@media only screen and (max-width:425px){ 
+    .companies {
+        padding-left: 40px;
+        margin: 0px !important;
+    }
+    .companies img {
+        padding: 10px;
+    }
+    }
+
+    @media only screen and (max-width:768px){ 
+        .companies {
+            padding-left: 0px !important;
+        }    
+    }

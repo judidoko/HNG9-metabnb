@@ -1,12 +1,11 @@
 import React from "react";
-import "./Houses.css";
+import "./PlaceToStay.css";
 import { Col } from "react-bootstrap";
 import { AiFillStar } from "react-icons/ai";
 
-const Houses = (props) => {
+const PlaceToStay = (props) => {
   const { imgUrl, houseType, distance, amount, durability } = (props =
     props.item);
-
   return (
     <>
       <Col lg="3" md="6" sm="12" className="mb-3">
@@ -49,4 +48,4 @@ const Houses = (props) => {
   );
 };
 
-export default Houses;
+export default PlaceToStay;

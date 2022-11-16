@@ -40,7 +40,7 @@ const Footer = () => {
           </Col>
 
           <Col lg="2" md="3" sm="12">
-            <div className=" footer_links d-grid align-items-center gap-2">
+            <div className=" footer_links d-grid align-items-center mt-5 ms-5 gap-2">
               <h5>Community</h5>
               <Link to="#">NFT</Link>
               <Link to="#">Tokens</Link>
@@ -50,7 +50,7 @@ const Footer = () => {
           </Col>
 
           <Col lg="2" md="2" sm="12">
-            <div className=" footer_links d-grid align-items-center gap-2">
+            <div className=" footer_links d-grid align-items-center mt-5 ms-5 gap-2">
               <h5>Places</h5>
               <Link to="#">Castle</Link>
               <Link to="#">Farms</Link>
@@ -60,7 +60,7 @@ const Footer = () => {
           </Col>
 
           <Col lg="2" md="3" sm="12">
-            <div className="footer_links d-grid align-items-center gap-2">
+            <div className="footer_links d-grid align-items-center mt-5 ms-5 gap-2">
               <h5>About Us</h5>
               <Link to="#">Road map</Link>
               <Link to="#">Creator</Link>

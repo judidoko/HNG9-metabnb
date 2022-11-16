@@ -41,7 +41,7 @@ const Home = () => {
       </section>
       {/* service Section */}
       <section>
-        <div className="service_section d-flex aligns-items-center justify-content-center">
+        <div className="service_section d-flex aligns-items-center justify-content-center pb-5">
           <HomeService />
         </div>
       </section>

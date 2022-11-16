@@ -19,10 +19,10 @@ function Header() {
           <Nav
             className="nav_item me-auto my-lg-0"
             style={{ maxHeight: "100px" }}
-            // navbarScroll
+            navbarScroll
           >
-            <Link to="#">Home</Link>
-            <Link to="#">Place To Stay</Link>
+            <Link to="/">Home</Link>
+            <Link to="/placetostay">Place To Stay</Link>
             <Link to="#">NFTs</Link>
             <Link to="#">Community</Link>
           </Nav>

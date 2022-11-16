@@ -1,5 +1,5 @@
 .header_para {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .header_para h3{
     font-family: 'Red Rose', cursive;
@@ -47,7 +47,22 @@
 
 
 
-@media only screen and (max-width:768px){ 
 
-
+@media only screen and (max-width:425px){ 
+    .header_para h3{
+        font-size: 40px;
+    }
+    .header_para p {
+        font-size: 20px;
+    }
+    .btn_search {
+        width: 150px;
+    
+    }
+}
+@media only screen and (max-width:320px){ 
+    .btn_search {
+        width: 130px;
+    
+    }
 }
