@@ -42,28 +42,28 @@ function Header() {
       {/* connection Wallet Section */}
 
       <div
-        class="modal fade"
+        className="modal fade"
         id="connectWallet"
         tabindex="-1"
         aria-labelledby="connectModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="connectModalLabel">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h1 className="modal-title fs-5" id="connectModalLabel">
                 Connect Wallet
               </h1>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
             <div className="modal-body">
               <div className="wallet mb-3">
-                <label for="recipient-name" className="col-form-label">
+                <label htmlFor="recipient-name" className="col-form-label">
                   Choose your Preferred wallet:
                 </label>
                 <br />
