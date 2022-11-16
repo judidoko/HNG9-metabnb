@@ -6,6 +6,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import HeaderLogo from "../../Assets/imgs/metabnb-logo.JPG";
+import metaMask from "../../Assets/imgs/metamask_2.JPG";
+import walletConnect from "../../Assets/imgs/walletconnect.JPG";
+import { FaAngleRight } from "react-icons/fa";
 
 function Header() {
   return (
@@ -67,10 +70,16 @@ function Header() {
                   Choose your Preferred wallet:
                 </label>
                 <br />
-                <Button>MataMask</Button>
+                <Button>
+                  <img src={metaMask} alt="metamask logo" />
+                  <FaAngleRight className="direction" />
+                </Button>
               </div>
-              <div class=" wallet mb-3">
-                <Button>WalletConnent</Button>
+              <div class="wallet_two mb-3">
+                <Button>
+                  <img src={walletConnect} alt="walletconnect logo" />
+                  <FaAngleRight className="direction" />
+                </Button>
               </div>
             </div>
           </div>

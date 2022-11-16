@@ -22,6 +22,7 @@
 
 /* connect wallet section */
 .wallet button {
+    display: flex;
     background: #F8F9FA;
     width: 100%;
     top: 68px;
@@ -29,8 +30,44 @@
     border-radius: 12px;
     padding: 12px 20px 12px 20px;
     justify-content: space-between;
+    align-items: center;
     color: #000000;
     font-weight: 700;
+}
+.wallet button:hover {
+    background: #F8F9FA;
+    border: 1px solid #A02279;
+}
+.wallet button:focus{
+    background: #F8F9FA;
+}
+.wallet button:active {
+    background: #F8F9FA;
+}
+.direction {
+    color: #4040404D;
 
-
+}
+.wallet_two button {
+    display: flex;
+    background: #ffffff !important;
+    width: 100%;
+    top: 68px;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    padding: 12px 20px 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    font-weight: 700;
+}
+.wallet_two button:hover {
+    background: #ffffff;
+    border: 1px solid #A02279;
+}
+.wallet_two button:focus{
+    background: #ffffff;
+}
+.wallet_two button:active {
+    background: #ffffff;
 }
