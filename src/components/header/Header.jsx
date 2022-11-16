@@ -28,52 +28,31 @@ function Header() {
               <Link to="#">Community</Link>
             </Nav>
             <Form className="d-flex">
-              <Button className="btn_connect">Connect Wallet</Button>
+              <Button
+                className="btn_connect"
+                data-bs-toggle="modal"
+                data-bs-target="#connectWallet"
+              >
+                Connect Wallet
+              </Button>
             </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>
       {/* connection Wallet Section */}
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-        data-bs-whatever="@mdo"
-      >
-        Open modal for @mdo
-      </button>
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-        data-bs-whatever="@fat"
-      >
-        Open modal for @fat
-      </button>
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-        data-bs-whatever="@getbootstrap"
-      >
-        Open modal for @getbootstrap
-      </button>
 
       <div
         class="modal fade"
-        id="exampleModal"
+        id="connectWallet"
         tabindex="-1"
-        aria-labelledby="exampleModalLabel"
+        aria-labelledby="connectModalLabel"
         aria-hidden="true"
       >
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">
-                New message
+              <h1 class="modal-title fs-5" id="connectModalLabel">
+                Connect Wallet
               </h1>
               <button
                 type="button"
@@ -82,33 +61,17 @@ function Header() {
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">
-                    Recipient:
-                  </label>
-                  <input type="text" class="form-control" id="recipient-name" />
-                </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">
-                    Message:
-                  </label>
-                  <textarea class="form-control" id="message-text"></textarea>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">
-                Send message
-              </button>
+            <div className="modal-body">
+              <div className="wallet mb-3">
+                <label for="recipient-name" className="col-form-label">
+                  Choose your Preferred wallet:
+                </label>
+                <br />
+                <Button>MataMask</Button>
+              </div>
+              <div class=" wallet mb-3">
+                <Button>WalletConnent</Button>
+              </div>
             </div>
           </div>
         </div>
